@@ -1,19 +1,39 @@
-ul{
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+header{
+    display: flex;
+    align-items: center;
+    
+    width: 375px;
+}
+
+header a { 
+    font-family:'Poppins';
+    font-weight:700;
+    font-size:18px;
+    line-height:20px;
+    color: #6070ff;
+    padding-left: 5%;
+    text-decoration: none; 
+    
+}
+
+/* .topim {} */
+nav {
+     margin-left:65%;    
+}
+
+section{
     display:flex;
-    list-style:none;
-}
-.logo{
-    justify-content:center;
-}
-.menu{
-    justify-content: right;
-}
-.container{
-    display:flex;
-    flex-direction:row;
+    flex-direction: column;
     justify-content:space-evenly;
+    height:604px;
+    width:375px;
 }
-.left,.right{
- height:auto;
- width:50%;
+
+.footer{
+    display:flex;
+    justify-content: left;
+    list-style: none;
+    gap:10px;
+    
 }
