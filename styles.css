@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+body{
+    height: 718px;
+width: 375px;
+left: 0px;
+top: 0px;
+border-radius: [object Object]px;
+background:#FFFFFF;
+}
 header{
     display: flex;
     align-items: center;
@@ -6,6 +14,27 @@ header{
     width: 375px;
 }
 
+#Rectangle{
+    height: 22.020978631184086px;
+width: 95.58042016112925px;
+left: 294px;
+top: 165.7900390625px;
+border-radius: 0px;
+background: #EBEBFF;
+position:absolute;
+transform: rotate(-30deg);
+
+
+
+}
+#ellipse{
+
+position:absolute;
+width:105px;
+height:105px;
+left:323px;
+top:152.24px;
+}
 header a { 
     font-family:'Poppins';
     font-weight:700;
@@ -16,7 +45,42 @@ header a {
     text-decoration: none; 
     
 }
+h1{
+    height: 150px;
+width: 327px;
+left: 24px;
+top: 114px;
+border-radius: nullpx;
+font-family: Poppins;
+font-size: 40px;
+font-weight: 700;
+line-height: 52px;
+letter-spacing: 0em;
+text-align: left;
+color: #172B4D;
 
+
+
+}
+.bio{
+    
+    height: 146px;
+    width: 327px;
+    left: 24px;
+    top: 276px;
+    border-radius: nullpx;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #344563;
+
+
+
+
+}
 /* .topim {} */
 nav {
      margin-left:65%;    
@@ -36,4 +100,32 @@ section{
     list-style: none;
     gap:10px;
     
+}
+.connect{
+    font-family: 'Poppins';
+    color:#7F8CFF;
+    height: 24px;
+width: 117px;
+left: 0px;
+top: 0px;
+border-radius: nullpx;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #7F8CFF;
+
+
+
+}
+
+body{
+    height: 812px;
+width: 375px;
+left: 12395px;
+top: -1883px;
+border-radius: 0px;
+
 }
