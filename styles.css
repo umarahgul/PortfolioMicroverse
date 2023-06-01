@@ -1,0 +1,19 @@
+ul{
+    display:flex;
+    list-style:none;
+}
+.logo{
+    justify-content:center;
+}
+.menu{
+    justify-content: right;
+}
+.container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+.left,.right{
+ height:auto;
+ width:50%;
+}
