@@ -144,25 +144,31 @@ h1 {
 
   color: #172B4D;
 }
-
 .stack {
   display: flex;
   justify-content: left;
   gap: 5px;
   list-style: none;
+}
+
+
+.stack .stack-elem {
   width: 33px;
   height: 16px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  line-height: 16px;
   letter-spacing: 0.03em;
   color: #6070FF;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  gap: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  width: 92px;
+  height: 24px;
+  background: #EBEBFF;
+  border-radius: 8px;
 }
 
 .About {
