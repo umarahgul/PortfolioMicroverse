@@ -125,7 +125,6 @@ nav {
   height: 604px;
   width: 375px;
   gap: 12px;
-  height: 552px;
   left: 24px;
   top: 114px;
   border-radius: 16px;
@@ -170,8 +169,9 @@ nav {
   flex-direction: row;
   align-items: center;
   gap: 5px;
-  width: 375px; 
+  width: 375px;
 }
+
 .canopy {
   height: 16px;
   width: 55px;
@@ -194,15 +194,15 @@ nav {
   font-size: 13px;
   font-weight: 600;
   line-height: 16px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #7a869a;
-} 
+}
 
 .Year {
   background-image: url("images/2015.png");
   background-repeat: no-repeat;
-} 
+}
 
 .counter {
   background-image: url("images/Counter.png");
@@ -247,7 +247,6 @@ nav {
   letter-spacing: 0;
   text-align: left;
   color: #344563;
-  line-height: 24px;
   vertical-align: top;
 }
 
@@ -264,6 +263,5 @@ nav {
   letter-spacing: 0.03em;
   text-align: center;
   color: #396df2;
-  line-height: 24px;
   vertical-align: center;
 }
