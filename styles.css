@@ -124,14 +124,12 @@ nav {
   padding: 114px 24px;
   height: 604px;
   width: 375px;
-  gap:12px; 
+  gap: 12px;
   height: 552px;
-  width: 327px;
   left: 24px;
   top: 114px;
   border-radius: 16px;
-  padding: 16px;
-  background-color: #DFE1E6;
+  background-color: #dfe1e6;
 }
 
 .snapshot {
@@ -141,78 +139,69 @@ nav {
   left: 16px;
   top: 16px;
   border-radius: 8px;
-
 }
+
 .tonic {
   background-image: url("images/tonic.png");
   background-repeat: no-repeat;
   height: 36px;
   width: 295px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   border-radius: nullpx;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-
-
 }
 
-.stack{
-  display:flex;
+.stack {
+  display: flex;
   justify-content: left;
-  gap:5px;
+  gap: 5px;
   list-style: none;
 }
+
 .info {
-  display:flex;
+  display: flex;
   justify-content: left;
   flex-direction: row;
   align-items: center;
-  gap:5px;
-  width:375px; 
+  gap: 5px;
+  width: 375px; 
 }
 .canopy {
   height: 16px;
   width: 55px;
-  left: 0px;
+  left: 0;
   top: 8px;
   border-radius: nullpx;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 13px;
   font-weight: 600;
   line-height: 16px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-  font-family: 'Poppins';
-  font-style: SemiBold;
-  line-height: 82%;
-  text-align: left;
+  font-style: semibold;
   vertical-align: top;
-
-
 }
 
 .Backend {
-  width:88px;
-  font-family: Poppins;
+  width: 88px;
+  font-family: 'Poppins';
   font-size: 13px;
   font-weight: 600;
   line-height: 16px;
   letter-spacing: 0em;
   text-align: left;
-  font-family: Poppins;
-  line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
 } 
 
 .Year {
   background-image: url("images/2015.png");
   background-repeat: no-repeat;
-
 } 
 
 .counter {
@@ -229,7 +218,7 @@ nav {
   padding: 114px 24px;
   height: 604px;
   width: 375px;
-  gap:12px; 
+  gap: 12px;
 }
 
 .myself {
@@ -240,9 +229,9 @@ nav {
   line-height: 87%;
   letter-spacing: 0;
   text-align: left;
-  vertical-align: Center;
-  font-style: Bold;
-  color: #172B4D;
+  vertical-align: center;
+  font-style: bold;
+  color: #172b4d;
 }
 
 .pg2 {
@@ -255,11 +244,10 @@ nav {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #344563;
   line-height: 24px;
-  line-height: 100%;
   vertical-align: top;
 }
 
@@ -269,15 +257,13 @@ nav {
   left: 12px;
   top: 12px;
   border-radius: nullpx;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 17px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: center;
-  color: #396DF2;
+  color: #396df2;
   line-height: 24px;
-  line-height: 94%;
   vertical-align: center;
-  letter-spacing: 3%;
 }
