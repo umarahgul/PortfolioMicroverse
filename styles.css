@@ -233,33 +233,51 @@ nav {
 }
 
 .myself {
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
   line-height: 87%;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   vertical-align: Center;
   font-style: Bold;
   color: #172B4D;
-
 }
 
-.pg2{
+.pg2 {
   height: 147px;
-width: 327px;
-left: 0px;
-top: 47px;
-border-radius: nullpx;
-font-family: Poppins;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: left;
-color: #344563;
-line-height:24px;
-line-height:100%;
-vertical-align: top;
+  width: 327px;
+  left: 0;
+  top: 47px;
+  border-radius: nullpx;
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #344563;
+  line-height: 24px;
+  line-height: 100%;
+  vertical-align: top;
+}
+
+.resume {
+  height: 24px;
+  width: 138px;
+  left: 12px;
+  top: 12px;
+  border-radius: nullpx;
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #396DF2;
+  line-height: 24px;
+  line-height: 94%;
+  vertical-align: center;
+  letter-spacing: 3%;
 }
