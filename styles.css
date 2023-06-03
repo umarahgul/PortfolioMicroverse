@@ -33,7 +33,7 @@ header {
   width: 100%;
 }
 
-nav{
+nav {
   display: flex;
   justify-content: space-between;
   margin: 0 24px;
@@ -112,4 +112,3 @@ h1 {
   gap: 20px;
   align-items: center;
 }
-
