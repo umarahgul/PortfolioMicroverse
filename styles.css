@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #F7F7F9;
+  background-color: #f7f7f9;
 }
 
 body {
@@ -32,14 +32,13 @@ header {
   margin-top: 30px;
   margin-bottom: 20px;
   gap: 275px;
-
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   margin: 0 24px;
-  width:fit-content;
+  width: fit-content;
   gap: 275px;
 }
 
@@ -125,8 +124,8 @@ h1 {
   gap: 12px;
   width: 327px;
   height: 552px;
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background: #ffffff;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
 
@@ -144,7 +143,7 @@ h1 {
   font-size: 32px;
   line-height: 44px;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .stack {
@@ -155,38 +154,36 @@ h1 {
 }
 
 .stack-elem:hover {
-  background: #6070FF;
-  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
-  color: #FFFFFF;
-  border: #6070FF;
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  color: #ffffff;
+  border: #6070ff;
 }
 
 .stack-elem:active {
-  background: #2230D2;
+  background: #2230d2;
 }
 
 .stack .stack-elem {
   width: 33px;
   height: 16px;
-  font-family: 'Poppins';
+  font-family: 'Poppins' , sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   letter-spacing: 0.03em;
-  color: #6070FF;
+  color: #6070ff;
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 4px 12px;
-  width: 92px;
-  height: 24px;
-  background-color: #EBEBFF;
+  background-color: #ebebff;
   border-radius: 8px;
-  border:none
+  border: none;
 }
 
-.About-myself {  
-  background-color: #FFFFFF;
+.About-myself {
+  background-color: #ffffff;
   align-items: center;
   margin: 114px 24px;
   display: flex;
@@ -197,21 +194,21 @@ h1 {
 }
 
 #myself {
-    font-family: 'Poppins', sans-serif;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 52px;
-    line-height: 87%;
-    text-align: left;
-    vertical-align: center;
-    font-style: bold;
-    color: #172b4d;
-    margin-bottom: 12px;
-    left: -213px;
-    font-style: normal;
-    display: flex;
-    width:fit-content;
-    margin-top:114px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  line-height: 87%;
+  text-align: left;
+  vertical-align: center;
+  font-style: bold;
+  color: #172b4d;
+  margin-bottom: 12px;
+  left: -213px;
+  font-style: normal;
+  display: flex;
+  width: fit-content;
+  margin-top: 114px;
 }
 
 .pg2 {
@@ -227,7 +224,7 @@ h1 {
   text-align: left;
   color: #344563;
   vertical-align: top;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .resume {
@@ -235,7 +232,7 @@ h1 {
   width: 138px;
   left: 12px;
   top: 12px;
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   border-radius: 8px;
   font-family: 'Poppins', sans-serif;
   font-size: 17px;
@@ -253,8 +250,6 @@ h1 {
   background-color: white;
   margin-bottom: 60px;
   margin-top: 22px;
-  width: 162px;
-  height: 48px;
 }
 
 .work-section {
@@ -271,15 +266,15 @@ h1 {
 }
 
 .tags-li {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
 }
 
 .tags-li-blod {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
@@ -288,7 +283,7 @@ h1 {
 }
 
 .see-project {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -296,30 +291,30 @@ h1 {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #6070FF;
-  background: #FFFFFF;
+  color: #6070ff;
+  background: #ffffff;
   padding: 12px;
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   border-radius: 8px;
   text-align: center;
   width: fit-content;
 }
 
-.see-project:hover{
-  background: #6070FF;
-  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
-  color: #FFFFFF;
+.see-project:hover {
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  color: #ffffff;
 }
 
-.see-project:active{
-  background: #2230D2;
+.see-project:active {
+  background: #2230d2;
 }
 
 .contact-me {
   width: 375px;
   height: 779px;
   left: 0px;
-  background-image:url("images/image-for-contact\ me.png");
+  background-image: url("images/image-for-contact\ me.png");
   border-image-repeat: none;
   display: flex;
   flex-direction: column;
@@ -333,24 +328,24 @@ h1 {
   width: 327px;
   left: 24px;
   top: 4802px;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
-  background-color: #6070FF;
-  color: #FFFFFF;
+  background-color: #6070ff`;
+  color: #ffffff;
 }
 
 #email {
   height: 48px;
   width: 327px;
   left: 24px;
-  right:24px;
+  right: 24px;
   top: 4991px;
   border-radius: 10px;
-  border:0;
+  border: none;
 }
 
 #name {
@@ -359,7 +354,7 @@ h1 {
   left: 24px;
   top: 4991px;
   border-radius: 10px;
-  right:24px;
+  right: 24px;
 }
 
 #message {
@@ -380,8 +375,6 @@ li {
   margin-right: 10px;
 }
 
-
-
 .dropdown {
   position: relative;
 }
@@ -391,8 +384,12 @@ li {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   z-index: 1;
+}
+
+a {
+  text-decoration: none;
 }
 
 .dropdown-content a {
@@ -406,37 +403,24 @@ li {
   display: block;
 }
 
-a {
-  text-decoration: none;
-}
-
-.skills li{
-  display:flex;
+.skills li {
+  display: flex;
   flex-direction: column;
   background-color: white;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: medium;
   font-size: 20px;
   line-height: 80%;
   vertical-align: center;
   margin-bottom: 36px;
 }
+
 #divider {
-  background-color: #Dfe1e6;
+  background-color: #dfe1e6;
   height: 1px;
   width: 327px;
-  left: 0px;
+  left: 0;
   top: 71px;
-  border-radius: 0px;
   margin-top: 24px;
-  margin-bottom: 23px;
-  
+  margin-bottom: 23px; 
 }
-
-
-
-
-
-
-
-
