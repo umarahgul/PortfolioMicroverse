@@ -14,48 +14,6 @@ body {
   align-items: center;
 }
 
-#top {
-  background-image: url("images/header-shapes\ mobile.png");
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 114px 24px;
-  height: 604px;
-  width: 375px;
-  gap: 12px;
-}
-
-header {
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  gap: 275px;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 24px;
-  width: fit-content;
-  gap: 275px;
-}
-
-.check {
-  display: flex;
-  list-style: none;
-  margin: 0;
-}
-
-header .left .right {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-  color: #6070ff;
-  text-decoration: none;
-}
 
 h1 {
   height: 150px;
@@ -212,7 +170,7 @@ h1 {
 
 .pg2 {
   height: 147px;
-  width: 327px;
+  width:fit-content;
   left: 0;
   top: 47px;
   font-family: 'Poppins', sans-serif;
@@ -228,7 +186,7 @@ h1 {
 
 .resume {
   height: 24px;
-  width: 138px;
+  width: fit-content;
   left: 12px;
   top: 12px;
   border: 1px solid #6070ff;
@@ -238,24 +196,20 @@ h1 {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.03em;
-  text-align: center;
+  text-align:center;
   color: #396df2;
-  vertical-align: center;
+  vertical-align: left;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  padding: 12px;
+  align-items:center;
+  padding: 24px;
   gap: 10px;
   background-color: white;
   margin-bottom: 60px;
   margin-top: 22px;
 }
 
-.work-section {
-  display: grid;
-  padding: 114px 24px;
-  gap: 88px;
-}
+
 
 .tags {
   display: flex;
@@ -419,4 +373,65 @@ a {
   top: 71px;
   margin-top: 24px;
   margin-bottom: 23px;
+}
+.skil {
+  display:flex;
+  gap:16px;
+  width:fit-content;
+  height: 66.7155990600586px;
+  width: 303px;
+  left: 12px;
+  top: 90.715576171875px;
+  border-radius: 8px;
+}
+.About-myself {
+  display:flex;
+  align-items:normal ;
+  padding-left: 36px;
+}
+
+@media screen and (min-width:375px) {
+  .work-section {
+    display: grid;
+    padding: 114px 24px;
+    gap: 88px;
+    grid-template-columns: 1fr;
+  }
+
+  #top {
+    background-image: url("images/header-shapes\ mobile.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 114px 24px;
+    height: 604px;
+    width: 375px;
+    gap: 12px;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    gap: 275px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 24px;
+    width: fit-content;
+    gap: 275px;
+  }
+  
+  header .left .right {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #6070ff;
+    text-decoration: none;
+  }
+  
 }
