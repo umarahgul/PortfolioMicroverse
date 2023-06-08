@@ -101,7 +101,6 @@ h1 {
   vertical-align: top;
   font-weight: 500;
   letter-spacing: 0;
- 
   margin-bottom: 24px;
   margin-top: 12px;
   background-color: #fff;
@@ -127,7 +126,6 @@ h1 {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
-
 
 .snapshot {
   height: 220px;
@@ -250,7 +248,7 @@ h1 {
 .resume,
 .connect,
 .footer {
- margin-left:0;
+  margin-left: 0;
 }
 
 .tags {
@@ -312,22 +310,20 @@ ul {
 
 li {
   display: inline-block;
-  margin-right: 10px;
- 
+  margin-right: 10px; 
 }
 
 .dropdown-btn {
   color: black;
-  display:flex;
+  display: flex;
   justify-content: space-between;
-  width:237px;
-  margin-right:102px;
+  width: 237px;
+  margin-right: 102px;
 }
 
 .dropdown {
   position: relative;
-  display: inline-block;
-  
+  display: inline-block; 
 }
 
 .dropdown-content {
@@ -350,9 +346,8 @@ a {
   display: block;
 }
 
-
 .dropdown-content a:hover {
-  background-color: #ddd;  
+  background-color: #ddd; 
 }
 
 .rotate:hover {
@@ -363,7 +358,7 @@ a {
   display: block;
 }
 
-.dropdown:hover .dropbtn{ 
+.dropdown:hover .dropbtn { 
   background-color: #3e8e41;
 }
 
@@ -372,16 +367,15 @@ a {
   flex-direction: column;
   justify-content: space-between;
   background-color: white;
-  width:237px;
+  width: 237px;
   font-family: 'Poppins', sans-serif;
   font-style: medium;
   font-size: 20px;
   line-height: 80%;
   vertical-align: left;
   margin-bottom: 36px;
-  display:block;
   gap:102px;
-  margin-right:102px;
+  margin-right: 102px;
 }
 
 #divider {
