@@ -8,10 +8,51 @@
 }
 
 body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.work-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 88px;
+}
+
+#top {
+  background-image: url("images/header-shapes\ mobile.png");
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  padding: 114px 24px;
+  height: 604px;
+  width: 375px;
+  gap: 12px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  gap: 275px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 24px;
+  width: fit-content;
+  gap: 275px;
+}
+
+ .left {
+  font-family: 'Poppins', sans-serif;
+  font-style: bold;
+  font-size: 18px;
+  color: #6070ff;
+  font-weight: 700;
+  text-decoration: none;
+  line-height: 20px;
 }
 
 h1 {
@@ -43,7 +84,7 @@ h1 {
 .connect {
   height: 24px;
   width: 117px;
-  left: 24px;
+  margin-left: 24px;
   top: 434px;
   border-radius: 0;
   display: flex;
@@ -63,6 +104,7 @@ h1 {
   text-align: left;
   margin-bottom: 24px;
   margin-top: 12px;
+  background-color: #fff;
 }
 
 .footer {
@@ -70,7 +112,8 @@ h1 {
   justify-content: left;
   list-style: none;
   gap: 20px;
-  align-items: center;
+  background-color: #fff;
+  /* align-items: center; */
 }
 
 .works {
@@ -84,6 +127,13 @@ h1 {
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+}
+
+.middle-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  background-color: #fff;;
 }
 
 .snapshot {
@@ -108,11 +158,11 @@ h1 {
   justify-content: left;
   gap: 5px;
   list-style: none;
+  background-color: #fff;
 }
 
 .stack-elem:hover {
   background: #6070ff;
-  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   color: #fff;
   border: #6070ff;
 }
@@ -136,19 +186,22 @@ h1 {
   padding: 4px 12px;
   background-color: #ebebff;
   border-radius: 8px;
-  border: none;
+  height: 24px;
+  width:fit-content;
+  left: 0px;
+  top: 0px;
+  padding: 4px 12px 4px 12px;
 }
 
 .About-myself {
   background-color: #fff;
+  align-items: center;
   margin: 114px 24px;
   display: flex;
   flex-direction: column;
-  height: 1263px;
+  /* height: 1263px; */
   width: 375px;
   border-top-right-radius: 25px;
-  align-items: normal;
-  padding-left: 36px;
 }
 
 #myself {
@@ -170,7 +223,7 @@ h1 {
 
 .pg2 {
   height: 147px;
-  width: fit-content;
+  width: 327px;
   left: 0;
   top: 47px;
   font-family: 'Poppins', sans-serif;
@@ -185,10 +238,9 @@ h1 {
 }
 
 .resume {
-  height: 24px;
-  width: fit-content;
-  left: 12px;
-  top: 12px;
+  height: 48px;
+  left: 375px;
+  top: 4769px;
   border: 1px solid #6070ff;
   border-radius: 8px;
   font-family: 'Poppins', sans-serif;
@@ -198,15 +250,26 @@ h1 {
   letter-spacing: 0.03em;
   text-align: center;
   color: #396df2;
-  vertical-align: left;
+  vertical-align: center;
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 24px;
+  width: fit-content;
+  padding: 12px;
   gap: 10px;
   background-color: white;
   margin-bottom: 60px;
   margin-top: 22px;
+}
+
+.resume, .skills, .footer {
+    align-items: flex-start;
+}
+
+.work-section {
+  display: grid;
+  padding: 114px 24px;
+  gap: 88px;
 }
 
 .tags {
@@ -373,58 +436,8 @@ a {
   margin-bottom: 23px;
 }
 
-.skil {
-  display: flex;
-  gap: 16px;
-  width: fit-content;
-  height: 66px;
-  left: 12px;
-  top: 90px;
-  border-radius: 8px;
-}
-
-@media screen and (min-width: 375px) {
-  .work-section {
-    display: grid;
-    padding: 114px 24px;
-    gap: 88px;
-    grid-template-columns: 1fr;
-  }
-
-  #top {
-    background-image: url("images/header-shapes\ mobile.png");
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 114px 24px;
-    height: 604px;
-    width: 375px;
-    gap: 12px;
-  }
-
-  header {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    gap: 275px;
-  }
-
-  nav {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 24px;
-    width: fit-content;
-    gap: 275px;
-  }
-
-  header .left .right {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
-    color: #6070ff;
-    text-decoration: none;
-  }
+@media screen and (min-width:375px) { 
+    .works-section {
+        grid-template-columns: repeat(1, 1fr);
+      }
 }
