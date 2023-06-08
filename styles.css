@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #f7f7f9;
+  background-color: #fff;
 }
 
 body {
@@ -16,6 +16,7 @@ body {
   grid-template-columns: 1fr;
   padding: 114px 24px;
   grid-gap: 88px;
+  margin-left: 0.5rem;
 }
 
 #top {
