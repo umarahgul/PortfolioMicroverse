@@ -313,15 +313,21 @@ ul {
 li {
   display: inline-block;
   margin-right: 10px;
+ 
 }
 
 .dropdown-btn {
   color: black;
+  display:flex;
+  justify-content: space-between;
+  width:237px;
+  margin-right:102px;
 }
 
 .dropdown {
   position: relative;
   display: inline-block;
+  
 }
 
 .dropdown-content {
@@ -345,25 +351,37 @@ a {
 }
 
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+  background-color: #ddd;  
+}
 
-.dropdown:hover .dropdown-content {display: block;}
+.rotate:hover {
+  transform: rotate(90deg);
+}
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
+.dropdown:hover .dropbtn{ 
+  background-color: #3e8e41;
+}
 
 .skills li {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   background-color: white;
+  width:237px;
   font-family: 'Poppins', sans-serif;
   font-style: medium;
   font-size: 20px;
   line-height: 80%;
-  vertical-align: center;
+  vertical-align: left;
   margin-bottom: 36px;
   display:block;
-  gap:10px;
+  gap:102px;
+  margin-right:102px;
 }
 
 #divider {
