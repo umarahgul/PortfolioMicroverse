@@ -259,7 +259,7 @@ h1 {
 }
 
 .resume,
-.skills, 
+.skills,
 .footer {
   align-items: flex-start;
 }
@@ -429,7 +429,6 @@ a {
 }
 
 @media screen and (min-width: 375px) {
-
   .works-section {
     grid-template-columns: repeat(1, 1fr);
   }
