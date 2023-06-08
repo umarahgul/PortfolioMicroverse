@@ -310,7 +310,7 @@ ul {
 
 li {
   display: inline-block;
-  margin-right: 10px; 
+  margin-right: 10px;
 }
 
 .dropdown-btn {
@@ -323,7 +323,7 @@ li {
 
 .dropdown {
   position: relative;
-  display: inline-block; 
+  display: inline-block;
 }
 
 .dropdown-content {
@@ -347,7 +347,7 @@ a {
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd; 
+  background-color: #ddd;
 }
 
 .rotate:hover {
@@ -358,7 +358,7 @@ a {
   display: block;
 }
 
-.dropdown:hover .dropbtn { 
+.dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
 
@@ -374,7 +374,7 @@ a {
   line-height: 80%;
   vertical-align: left;
   margin-bottom: 36px;
-  gap:102px;
+  gap: 102px;
   margin-right: 102px;
 }
 
