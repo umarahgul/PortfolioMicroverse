@@ -46,7 +46,7 @@ nav {
   gap: 275px;
 }
 
- .left {
+.left {
   font-family: 'Poppins', sans-serif;
   font-style: bold;
   font-size: 18px;
@@ -113,7 +113,7 @@ h1 {
   justify-content: left;
   list-style: none;
   gap: 20px;
-  background-color:#fff;
+  background-color: #fff;
 }
 
 .works {
@@ -172,7 +172,6 @@ h1 {
 }
 
 .stack .stack-elem {
-  width: 33px;
   height: 16px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -188,7 +187,7 @@ h1 {
   height: 24px;
   width: fit-content;
   left: 0;
-  top: 0px;
+  top: 0;
   padding: 4px 12px 4px 12px;
 }
 
@@ -261,7 +260,7 @@ h1 {
 }
 
 .resume, .skills, .footer {
-   align-items: flex-start;
+  align-items: flex-start;
 }
 
 .tags {
@@ -428,8 +427,8 @@ a {
   margin-bottom: 23px;
 }
 
-@media screen and (min-width:375px) { 
-    .works-section {
-        grid-template-columns: repeat(1, 1fr);
-      }
+@media screen and (min-width: 375px) { 
+  .works-section {
+  grid-template-columns: repeat(1, 1fr);
+  }
 }
