@@ -25,7 +25,7 @@
 
 # 📖 PortfolioMicroverse <a name="about-project"></a>
 
-"PortfoilioMicroverse" is a simple web application that uses HTML, CSS, Figma and linters to showcase the skills and work of a web developer. It includes a collection of projects, an about section, contact information, and other relevant details. The project is implemented using Figma, a powerful design and prototyping too 
+"PortfoilioMicroverse" is a simple web application that uses HTML, CSS, Figma and linters to showcase the skills and work of a web developer. It includes a collection of projects, an about section, contact information, works section and other relevant details. The project is implemented using Figma, a powerful design and prototyping tool. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
