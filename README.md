@@ -77,7 +77,7 @@ Clone this repository to your desired folder:
 
 ### Install
 
-Install liter s for this project with:
+Install linters for this project with:
 
 ```sh
   cd my-project
