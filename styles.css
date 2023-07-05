@@ -13,6 +13,49 @@ body {
   align-items: center;
 }
 
+header {
+  display: flex; 
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  margin-left: 0;
+  width: 23.4375rem;
+  height: 5.75rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.75rem;
+  width: 23.4375rem;
+  height: 3rem;
+}
+
+header a {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.25rem;
+  color: #6070ff;
+  text-decoration: none;
+}
+
+.logo {
+  width: Hug (6.25rem);
+  height: Hug (2.5rem);
+  top: 0.25rem;
+  left: 0.75rem;
+  padding: 0.625rem 0.75rem;
+  
+}
+
+.menu-bars {
+  width: Hug (2.5rem);
+  height: Hug (2.5rem);
+  top: 0.25rem;
+  left: 19.4375rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
 #top {
   background-image: url("images/header-shapes\ mobile.png");
   background-repeat: no-repeat;
@@ -23,32 +66,6 @@ body {
   height: 604px;
   width: 375px;
   gap: 12px;
-}
-
-header {
-  position: absolute;
-  top: 20px;
-  display: flex; 
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 0;
-  width: 375px;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 24px;
-  width: 375px;
-}
-
-header a {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-  color: #6070ff;
-  text-decoration: none;
 }
 
 h1 {
